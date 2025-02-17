@@ -1,0 +1,10 @@
+# Dataframe
+causa <- c("Falla sistema urinario", "Neoplasia", "Infeccioso", "Trauma","Falla sistema cardiovascular", "Muerte súbita", "Cuerpo extraño")
+edad <- c(16,13,23,19,4,3,1)
+edad1 <- c(33,23,15,5,6,3,5)
+edad2 <- c(47,50,13,3,9,1,0)
+edad3 <- c(43,37,2,1,2,0,0)
+Tabla1 <- data.frame("Motivo de muerte" = causa, "0 a 4 años" = edad, 
+                     "5 a 9 años"=edad1,"10 a 14 años"=edad2,"15 años o más"=edad3)
+View(Tabla1) #Para visualizar la tabla
+head(Tabla1) #Para visualizar los datos
